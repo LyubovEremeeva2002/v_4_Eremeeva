@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1010dp"
+        android:layout_height="1509dp"
+        android:contentDescription="@string/bvcbcvbc"
+        android:src="@drawable/_6d5e6fe1101ac76da1e37f12eeaf02f77ad0550_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.485" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="115dp"
+        android:layout_height="65dp"
+        android:background="#EE03D6"
+        android:onClick="onClick"
+        android:text="@string/next"
+        android:textColor="#F3F3F3"
+        android:textSize="20sp"
+        app:cornerRadius="250sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.78"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.836"
+        tools:ignore="TextContrastCheck,UsingOnClickInXml" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="281dp"
+        android:layout_height="59dp"
+        android:background="#FFFCFC"
+        android:drawableStart="@drawable/passw"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/login"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/password"
+        android:textAlignment="center"
+        android:textColor="#EE03D6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.677"
+        tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="281dp"
+        android:layout_height="59dp"
+        android:background="#FFFCFC"
+        android:drawableStart="@drawable/manlog"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/login"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/login"
+        android:textAlignment="center"
+        android:textColor="#EE03D6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.542"
+        tools:ignore="TextContrastCheck,TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="167dp"
+        android:layout_height="107dp"
+        android:text="@string/helloA"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="115dp"
+        android:layout_height="65dp"
+        android:background="#EE03D6"
+        android:text="@string/exit"
+        android:textColor="#F3F3F3"
+        android:textSize="20sp"
+        app:cornerRadius="250sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.219"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.836"
+        tools:ignore="TextContrastCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

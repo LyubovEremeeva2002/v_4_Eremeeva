@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">variant4</string>
+    <string name="backgr">TODO</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="hello">TextView</string>
+    <string name="helloA">Привет, Андрей!</string>
+    <string name="exit">Выход</string>
+    <string name="next">Вход</string>
+    <string name="camera">TODO</string>
+    <string name="arrow">TODO</string>
+    <string name="cameraff">TODO</string>
+    <string name="arrrow">TODO</string>
+    <string name="contacts">Контакты</string>
+    <string name="leftarrow">TODO</string>
+    <string name="rightarrow">TODO</string>
+    <string name="find">Искать в 61 контакте</string>
+    <string name="anya">Аня</string>
+    <string name="albina">Альбина</string>
+    <string name="Anton">Антон</string>
+    <string name="boris">Борис</string>
+    <string name="babushka">Бабушка</string>
+    <string name="anyaimg">TODO</string>
+    <string name="albinaimg">TODO</string>
+    <string name="antonimg">TODO</string>
+    <string name="borisimg">TODO</string>
+    <string name="number">number</string>
+    <string name="calls">Call</string>
+    <string name="bvcbcvbc">TODO</string>
+    <string name="mnb">TODO</string>
+    <string name="asdrqw">TODO</string>
+    <string name="bvccvc">TODO</string>
+    <string name="mmnbv">TODO</string>
+</resources>
